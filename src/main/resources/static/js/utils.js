@@ -107,10 +107,10 @@ const Utils = {
     return date instanceof Date && !isNaN(date)
   },
 
-  // 获取默认过期日期（一年后）
+  // 获取默认过期日期（三年后）
   getDefaultExpiryDate() {
     const date = new Date()
-    date.setFullYear(date.getFullYear() + 1)
+    date.setFullYear(date.getFullYear() + 3)
     return date.toISOString().split('T')[0]
   },
 

@@ -1045,12 +1045,12 @@
 
             <!-- 快捷到期时间选项 -->
             <div class="grid grid-cols-4 gap-2 mt-3">
-              <button @click="setExpiryDate('30')" class="px-2 py-1 text-xs text-purple-600 bg-purple-50 rounded-md hover:bg-purple-100 transition-colors">30天</button>
-              <button @click="setExpiryDate('90')" class="px-2 py-1 text-xs text-purple-600 bg-purple-50 rounded-md hover:bg-purple-100 transition-colors">90天</button>
-              <button @click="setExpiryDate('180')" class="px-2 py-1 text-xs text-purple-600 bg-purple-50 rounded-md hover:bg-purple-100 transition-colors">6个月</button>
               <button @click="setExpiryDate('365')" class="px-2 py-1 text-xs text-purple-600 bg-purple-50 rounded-md hover:bg-purple-100 transition-colors">1年</button>
+              <button @click="setExpiryDate('1095')" class="px-2 py-1 text-xs text-purple-600 bg-purple-50 rounded-md hover:bg-purple-100 transition-colors">3年</button>
+              <button @click="setExpiryDate('1825')" class="px-2 py-1 text-xs text-purple-600 bg-purple-50 rounded-md hover:bg-purple-100 transition-colors">5年</button>
+              <button @click="setExpiryDate('3650')" class="px-2 py-1 text-xs text-purple-600 bg-purple-50 rounded-md hover:bg-purple-100 transition-colors">10年</button>
             </div>
-            <p class="text-xs text-gray-500 mt-2">默认设置为一年后</p>
+            <p class="text-xs text-gray-500 mt-2">默认设置为3年后</p>
           </div>
 
           <!-- 许可证类型选择 -->
