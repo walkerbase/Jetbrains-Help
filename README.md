@@ -25,6 +25,7 @@ git clone <repository-url>
 cd Jetbrains-Help
 
 # 编译项目
+export JAVA_HOME="/Users/hu/.jenv/versions/1.8"
 mvn clean compile
 
 # 启动应用
